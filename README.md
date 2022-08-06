@@ -18,4 +18,4 @@ flutter run //to check out the software without building it
 flutter build //to build the software
 ```
 ### Screenshots(prototype):
-![Home](https://github.com/arjunarj/onlook/blob/main/screenshots/IMG_20220806_145423.png?raw=true =250x250)
+<img src="screenshots/IMG_20220806_145423.png" alt="Home" width = 200 />
