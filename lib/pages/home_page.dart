@@ -31,23 +31,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBar(
-        toolbarHeight: 80,
-        title: Padding(
-          padding: const EdgeInsets.all(7.0),
-          child: Text(
-            'Home',
-            style: TextStyle(
-              color: Colors.black,
-              fontWeight: FontWeight.bold,
-              fontSize: 32,
-            ),
-          ),
-        ),
-        elevation: 0,
-        backgroundColor: Colors.white,
-      ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
