@@ -19,3 +19,6 @@ flutter build //to build the software
 ```
 ### Screenshots(prototype):
 <img src="screenshots/IMG_20220806_145423.png" alt="Home" width = 200 />
+<img src="screenshots/IMG_20220806_145817.png" alt="Calendar" width = 200 />
+<img src="screenshots/IMG_20220806_145440.png" alt="Events" width = 200 />
+<img src="screenshots/IMG_20220806_145514.png" alt="Login" width = 200 />
