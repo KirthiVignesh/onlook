@@ -17,3 +17,5 @@ build and deploy instruction:
 flutter run //to check out the software without building it
 flutter build //to build the software
 ```
+### Screenshots(prototype):
+![Home](https://github.com/arjunarj/onlook/blob/main/screenshots/IMG_20220806_145423.png?raw=true)
