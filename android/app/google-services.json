@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482988523889",
+    "project_id": "onlook-9f3d2",
+    "storage_bucket": "onlook-9f3d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482988523889:android:687b8acf2a656146e436d0",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482988523889-9jaos6i67ad8lnoo4peq4mps3q3fhbjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUxePKoxaGTOf0c1kBK9WDRz3jHFmYfsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482988523889-9jaos6i67ad8lnoo4peq4mps3q3fhbjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
