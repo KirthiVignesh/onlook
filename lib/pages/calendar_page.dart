@@ -32,6 +32,10 @@ class _CalendarPageState extends State<CalendarPage> {
         ),
         body: SfCalendar(
           view: CalendarView.week,
+          cellBorderColor: Colors.transparent,
+          backgroundColor: Colors.white,
+          selectionDecoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10), color: Colors.indigo),
           timeSlotViewSettings: TimeSlotViewSettings(
               startHour: 8,
               endHour: 17,
