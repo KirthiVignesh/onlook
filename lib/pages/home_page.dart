@@ -51,23 +51,6 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
       ),
-      // body: SafeArea(
-      //     child: Center(
-      //   child: Column(
-      //     mainAxisAlignment: MainAxisAlignment.center,
-      //     // crossAxisAlignment: CrossAxisAlignment.center,
-      //     children: [
-      //       Text('Signed In as: ${user.email!}'),
-      //       MaterialButton(
-      //         onPressed: () {
-      //           FirebaseAuth.instance.signOut();
-      //         },
-      //         color: Colors.indigo,
-      //         child: Text('sign out'),
-      //       )
-      //     ],
-      //   ),
-      // )),
       bottomNavigationBar: Container(
         color: Colors.indigo,
         child: Padding(
