@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:syncfusion_flutter_calendar/calendar.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class CalendarPage extends StatefulWidget {
   CalendarPage({Key? key}) : super(key: key);
@@ -10,6 +12,30 @@ class CalendarPage extends StatefulWidget {
 class _CalendarPageState extends State<CalendarPage> {
   @override
   Widget build(BuildContext context) {
-    return Text('Calendar');
+    return Scaffold(
+        backgroundColor: Colors.indigo,
+        appBar: AppBar(
+          toolbarHeight: 80,
+          title: Padding(
+            padding: const EdgeInsets.all(7.0),
+            child: Text(
+              'Calendar',
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+                fontSize: 32,
+              ),
+            ),
+          ),
+          elevation: 0,
+          backgroundColor: Colors.white,
+        ),
+        body: SfCalendar(
+          view: CalendarView.week,
+          timeSlotViewSettings: TimeSlotViewSettings(
+              startHour: 8,
+              endHour: 17,
+              nonWorkingDays: <int>[DateTime.sunday, DateTime.saturday]),
+        ));
   }
 }
