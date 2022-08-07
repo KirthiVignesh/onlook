@@ -17,3 +17,12 @@ build and deploy instruction:
 flutter run //to check out the software without building it
 flutter build //to build the software
 ```
+### Screenshots(prototype):
+<table>
+  <tr>
+    <td><img src="screenshots/IMG_20220806_145440.png" alt="Events" width = 200 ></td>
+    <td><img src="screenshots/IMG_20220806_145817.png" alt="Calendar" width = 200 ></td>
+    <td><img src="screenshots/IMG_20220806_145423.png" alt="Home" width = 200 ></td>
+    <td><img src="screenshots/IMG_20220806_145514.png" alt="Login" width = 200 ></td>
+  </tr>
+</table>  
