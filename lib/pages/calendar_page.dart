@@ -14,6 +14,11 @@ class _CalendarPageState extends State<CalendarPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.indigo,
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          backgroundColor: Colors.indigo,
+          child: Icon(Icons.add),
+        ),
         appBar: AppBar(
           toolbarHeight: 80,
           title: Padding(
@@ -21,7 +26,7 @@ class _CalendarPageState extends State<CalendarPage> {
             child: Text(
               'Calendar',
               style: TextStyle(
-                color: Colors.black,
+                color: Colors.indigo,
                 fontWeight: FontWeight.bold,
                 fontSize: 32,
               ),
@@ -31,6 +36,7 @@ class _CalendarPageState extends State<CalendarPage> {
           backgroundColor: Colors.white,
         ),
         body: SfCalendar(
+          todayHighlightColor: Colors.indigo,
           view: CalendarView.week,
           cellBorderColor: Colors.transparent,
           backgroundColor: Colors.white,
